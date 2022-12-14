@@ -3,7 +3,7 @@ let action = ['ate','peed','crushed','broke'];
 let what = ['my homework', 'the keys', 'the car'];
 let when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
 
-function generate(){
+window.onload = function generate(){
 let who_num = Math.floor(Math.random()*3);
 let action_num = Math.floor(Math.random()*3);
 let what_num = Math.floor(Math.random()*2);
